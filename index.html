@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Blog - Your Gateway to Knowledge</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">ModernBlog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#featured">Featured</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#categories">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h1>Welcome to Modern Blog</h1>
+                    <p class="lead">Discover amazing stories, insights, and knowledge from our community of writers.</p>
+                    <div class="cta-buttons">
+                        <a href="#featured" class="btn btn-primary btn-lg me-3">Explore Posts</a>
+                        <a href="#subscribe" class="btn btn-outline-light btn-lg">Subscribe</a>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <img src="https://via.placeholder.com/600x400" alt="Hero Image" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Posts -->
+    <section id="featured" class="featured-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Featured Posts</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4" data-aos="fade-up">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Post 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Getting Started with Web Development</h5>
+                            <p class="card-text">Learn the basics of web development and start your journey...</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Post 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Design Principles for Beginners</h5>
+                            <p class="card-text">Understanding the fundamental principles of design...</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Post 3">
+                        <div class="card-body">
+                            <h5 class="card-title">The Future of AI</h5>
+                            <p class="card-text">Exploring the possibilities and challenges of artificial intelligence...</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section id="categories" class="categories-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Categories</h2>
+            <div class="row">
+                <div class="col-md-3 mb-4" data-aos="zoom-in">
+                    <div class="category-card">
+                        <i class="fas fa-code"></i>
+                        <h4>Technology</h4>
+                        <p>Latest tech trends and tutorials</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="category-card">
+                        <i class="fas fa-palette"></i>
+                        <h4>Design</h4>
+                        <p>UI/UX and graphic design</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="category-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h4>Business</h4>
+                        <p>Entrepreneurship and growth</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="category-card">
+                        <i class="fas fa-camera"></i>
+                        <h4>Lifestyle</h4>
+                        <p>Travel and personal growth</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Subscribe -->
+    <section id="subscribe" class="subscribe-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center" data-aos="fade-up">
+                    <h2>Subscribe to Our Newsletter</h2>
+                    <p>Get the latest posts and updates delivered to your inbox.</p>
+                    <form class="subscribe-form">
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-right">
+                    <form class="contact-form">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <div class="contact-info">
+                        <h4>Get in Touch</h4>
+                        <p>Have questions? We'd love to hear from you.</p>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>contact@modernblog.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+1 234 567 890</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>123 Blog Street, Digital City</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>About ModernBlog</h4>
+                    <p>A modern platform for sharing knowledge, ideas, and stories with the world.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#featured">Featured</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ModernBlog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

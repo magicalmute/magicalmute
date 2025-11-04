@@ -1,0 +1,12 @@
+{
+  "name": "modern-blog",
+  "version": "1.0.0",
+  "description": "Modern Blog - Static Version",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["blog", "static-site", "github-pages"],
+  "author": "",
+  "license": "MIT"
+}
